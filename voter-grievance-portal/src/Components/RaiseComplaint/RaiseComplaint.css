@@ -1,0 +1,68 @@
+.complaint-wrapper {
+  display: flex;
+  gap: 40px;
+  padding: 40px;
+}
+
+.left-box {
+  width: 350px;
+  background: white;
+  padding: 25px;
+  border-radius: 20px;
+}
+
+.option {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.option h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.option p {
+  margin: 5px 0;
+  color: #444;
+  font-size: 14px;
+}
+
+.option button {
+  border: none;
+  background: #000;
+  color: white;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.divider-line {
+  height: 1px;
+  background: #dedede;
+  margin: 15px 0;
+}
+
+.faq-section {
+  flex-grow: 1;
+}
+
+.faq-section h2 {
+  margin-bottom: 20px;
+}
+
+.faq-card {
+  background: white;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+.faq-question {
+  display: flex;
+  justify-content: space-between;
+}
+.complaint-full-wrapper {
+  background: #f7f1df;
+  min-height: 100vh;
+}
